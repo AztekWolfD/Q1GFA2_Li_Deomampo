@@ -20,7 +20,8 @@
     border: 1px solid black;
     border-radius: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-height: 100vw;
+    max-height: 100vh;
+    min-height: 1vh;
 }
 
 .box{
@@ -31,6 +32,7 @@
     }
 
     .body div{
+        max-height: 100vh;
         min-height: 1vh;
         min-width: 1vw;
     }
@@ -47,12 +49,11 @@
 
 .content img {
     width: 60vw;
-    max-height: 100vh;
+    height: 50vh;
 }
 
 .content img{
     min-width: 1vw;
-    max-height: 50vh;
     min-height: 1vh;
 }
 
@@ -76,6 +77,8 @@
     border-radius: 5px;
     max-height: 100vh;
     text-align: left;
+    min-height: 1vh;
+    min-width: 1vw;
 }
 
 .h1{
