@@ -38,7 +38,7 @@
     border-radius: 0.5vw;
     float: left;
     display: inline-block;
-    height: 60vh;
+    height: 75vh;
     width: 10vw;
     border: 0.1vw solid black;
     
@@ -81,7 +81,7 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;
     width: 20vw;
-    height: 30vw;
+    height: 75vh;
     border-radius: 5px;
 }
 
@@ -96,10 +96,6 @@ h1{
 .side-contents p{
     text-align: left;
 }
-
-
-
-
 
 .linksgrp1{
     text-align: right;
