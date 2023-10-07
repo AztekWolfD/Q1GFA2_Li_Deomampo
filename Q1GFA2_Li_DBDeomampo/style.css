@@ -20,7 +20,7 @@
     border: 1px solid black;
     border-radius: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 100vw;
+    max-height: 100vw;
 }
 
 .box{
@@ -31,7 +31,8 @@
     }
 
     .body div{
-        min-height: 3vh;
+        min-height: 1vh;
+        min-width: 1vw;
     }
 
 .sidelink{
@@ -39,10 +40,31 @@
     border-radius: 0.5vw;
     float: left;
     display: inline-block;
-    height: 75vh;
-    width: 10vw;
+    max-width: 10vw;
     border: 0.1vw solid black;
-    
+    max-height: 100vh;
+}
+
+.content img {
+    width: 60vw;
+    max-height: 100vh;
+}
+
+.content img{
+    min-width: 1vw;
+    max-height: 50vh;
+    min-height: 1vh;
+}
+
+.body p{
+    word-wrap: break-word;
+    overflow: hidden;
+    font-size: 1.15vw;
+}
+
+.side-contents img{
+    min-width: 1vw;
+    min-height: 1vh;
 }
 
 .content{
@@ -50,18 +72,24 @@
     background-color: #dfd54c;
     border: 1px solid black;
     display: inline-block;
-    width: 62vw;
+    max-width: 62vw;
     border-radius: 5px;
-    height: 50vw;
-    text-align: left;
-}
-h1{
+    max-height: 100vh;
     text-align: left;
 }
 
-.p{
-    
+.h1{
     text-align: left;
+}
+
+.a{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.p {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -69,9 +97,15 @@ h1{
     margin-inline-end: 0px;
 }
 
-.content img{
-    width: 60vw;
-    height: 30vw;
+.body {
+    min-height: 1vh; 
+}
+
+
+
+.body img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
 
 .side-contents{
@@ -81,7 +115,7 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;
     width: 20vw;
-    height: 75vh;
+    max-height: 100vh;
     border-radius: 5px;
 }
 
@@ -151,7 +185,7 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      text-transform: uppercase;
     font-weight: 600;
-    opacity:0.7;
+    opacity:1;
     transition:.6s;
     border-radius: 5px;
     }
@@ -189,17 +223,27 @@ h1{
 .links1{
     display: inline-block;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 1vh;
     border: 0.1vw solid black;
     border-radius: 0.5vw;
     text-transform: uppercase;
     transition: 0.6s;
+    max-height: 50vh;
+    max-width: 10vw;
+    min-height: 5vh;
+    font-weight: 600;
+    opacity:1;
+    transition:.6s;
+    border-radius: 5px;
 }
 
 .links1 a {
-    font-size: 0.85vw;
+    word-wrap: break-word;
+    overflow: hidden;
+    font-size: 1vw;
     text-decoration: none;
     display: inline-block;
+    max-width: 100%;
+    min-height: 1vh;
 }
 
 .links a {
