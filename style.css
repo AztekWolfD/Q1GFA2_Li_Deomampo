@@ -52,6 +52,18 @@
     height: 50vh;
 }
 
+.box h1{
+    word-wrap: break-word;
+    overflow: hidden;
+    font-size: 3vw;
+}
+
+.body h1{
+    word-wrap: break-word;
+    overflow: hidden;
+    font-size: 3vw;
+}
+
 .content img{
     min-width: 1vw;
     min-height: 1vh;
